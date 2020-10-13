@@ -6,6 +6,10 @@ npm start
 
 Config file added in the app.
 
+Assumptions: 
+
+botId, conversationId and message is provided by the client. And validation is added for the same.
+
 Curl reqeust for intent from Server 1
 
 curl --location --request POST 'http://localhost:3000/intent' \
